@@ -14,7 +14,7 @@ body {
 	background: $main-color;
 	width: 75%;
 	margin: 0 auto;
-	padding: 25px 50px;
+	padding: 25px 48px;
 	text-align: center;
 	border-radius: 0px 0px 20px 20px;
 	color: $head-foot-words;
@@ -59,10 +59,6 @@ h1#welcome {
 	margin: 0px 20px;
 	padding: 5px;
 	// display: block;
-}
-
-#experiences-nav {
-	display: block;
 }
 
 #pic {
@@ -139,78 +135,153 @@ i {
 }
 
 @media only screen and (min-width: $small-width + 1) and (max-width: $medium-width) {
-	#links {
-	width: 70%;
-	text-align: center;
-	margin: 0 auto;
-	margin-top: 20px;
-	border-bottom: 5px solid $main-color;
-	padding-bottom: 20px;
+	#head {
+	width: 75%;
+	padding: 25px 60px;
 	}
 
-	#links a {
-	text-align: center;	
-	text-decoration: none;
-	word-spacing: 20px;
-	padding: 20px;
-	display: inline;
+	#foot {
+	padding: 10px 60px;
 	}
 }
 
 @media only screen and (min-width: $medium-width + 1) and (max-width: $large-width) {
 	#head {
-	background: $main-color;
 	width: 75%;
-	margin: 0 auto;
-	padding: 40px;
-	text-align: center;
-	border-radius: 0px 0px 20px 20px;
-	color: $head-foot-words;
+	padding: 25px 88px;
 	}
 	
+	h1#welcome {
+	font-size: 32px;
+	}
+
+	#name {
+	font-size: 40px;
+	}
+
+	#skill {
+	font-size: 24px;
+	}
+
+	#desc {
+	font-size: 20px;
+	}
+
 	#links {
 	width: 65%;
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: 5px;
 	border-bottom: 5px solid $main-color;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 	}
 
 	#links a {
-	text-align: center;	
-	text-decoration: none;
-	word-spacing: 20px;
+	text-align: center;
 	padding: 20px;
-	display: inline;
 	}
+
+	#pic img {
+	height: 290px;
+	width: 290px;
+	border-radius: 145px;
+	margin-top: 25px;
+	}
+
+	section, h5 {
+		font-size: 28px;
+	}
+
+	.about {
+	font-size: 18px;
+	padding: 10px 0px;
+	}
+
+	h6 {
+	font-size: 20px;
+	margin: 5px 0px;
+	}
+
+	.proj-caption {
+	font-size: 14px;
+	margin: 5px 0px 25px 0px;
+	}
+
+
+	#foot {
+	font-size: 18px;
+	padding: 10px 88px;
+	}
+
 }
 
 @media only screen and (min-width: $large-width + 1) {
 	#head {
-	background: $main-color;
 	width: 75%;
-	margin: 0 auto;
-	padding: 50px;
-	text-align: center;
-	border-radius: 0px 0px 20px 20px;
-	color: $head-foot-words;
+	padding: 25px 88px;
+	}
+	
+	h1#welcome {
+	font-size: 32px;
+	}
+
+	#name {
+	font-size: 40px;
+	}
+
+	#skill {
+	font-size: 24px;
+	}
+
+	#desc {
+	font-size: 20px;
 	}
 
 	#links {
-	width: 60%;
+	width: 65%;
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: 5px;
 	border-bottom: 5px solid $main-color;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 	}
 
 	#links a {
-	text-align: center;	
-	text-decoration: none;
-	word-spacing: 20px;
+	text-align: center;
 	padding: 20px;
-	display: inline;
+	font-size: 18px;
 	}
+
+	#pic img {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+	margin-top: 25px;
+	}
+
+	section, h5 {
+		font-size: 28px;
+	}
+
+	.about {
+	font-size: 18px;
+	padding: 10px 0px;
+	}
+
+	h6 {
+	font-size: 20px;
+	margin: 5px 0px;
+	}
+
+	.proj-caption {
+	font-size: 14px;
+	margin: 5px 0px 25px 0px;
+	}
+
+
+	#foot {
+	font-size: 18px;
+	padding: 10px 88px;
+	}
+
 }
